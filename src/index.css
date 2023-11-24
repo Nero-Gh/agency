@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body,
+#root {
+  font-family: "DM Sans", sans-serif;
+  @apply bg-slate-100 text-darkColor h-full;
+}
